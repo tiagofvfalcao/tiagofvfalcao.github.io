@@ -37,7 +37,7 @@ ul{
 	height: 375px;
 	width: 300px;
 	border: none;
-	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0);
 	
 }
 
