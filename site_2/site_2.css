@@ -1,0 +1,44 @@
+body {
+	text-shadow: 1px 1px 1px #000000;
+	font-family: "Courier New", monospace;
+	background-image: url('vicious-pretty.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	margin-left: 15px;
+
+}
+
+#Pagina_Inicial{
+	
+	text-shadow: 0px 0px 0px #000000;
+	background-color: grey;
+
+}
+
+ul{
+	
+	list-style-type: none;
+	
+}
+
+#members{
+	
+	float: right;
+	margin: 20 100 0 15px;
+	
+}
+
+#frame{
+	
+	overflow: hidden;
+	float: right;
+	margin: 20 50 0 15px;
+	background-color: grey;
+	height: 375px;
+	width: 300px;
+	border: none;
+	background-color: transparent;
+	
+}
+
