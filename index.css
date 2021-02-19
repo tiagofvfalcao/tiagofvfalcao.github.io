@@ -1,0 +1,71 @@
+body{
+
+	font-family: "Courier New", monospace;
+	background-image: url('vicious-pretty.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+
+}
+
+#primeiro_menu {
+
+	background-color: rgba(200, 200, 200, 0.7);
+
+}
+
+#primeiro_menu li{
+	
+	text-align: center;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: bold;
+
+}
+
+#menu{
+	
+	display:block;
+	margin: auto;
+	
+}
+
+#menu ul{
+	
+	list-style: none;
+	position: absolute; /*para flutuar  na pagina*/
+	top: 50px;
+
+	
+}
+
+#menu li{
+	
+	text-align: center;
+	display: inline;
+	font-weight: bold;
+	padding: 8px;
+	
+}
+
+a{
+	
+	text-decoration: none;
+	
+}
+
+#menu a:link, #menu a:visited {
+  background-color: grey;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid rgba(255, 0, 0, 0.5);
+}
+
+#menu a:hover, #menu a:active {
+  background-color: rgba(100, 100, 100, 1);
+}
