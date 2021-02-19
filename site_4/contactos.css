@@ -1,0 +1,91 @@
+body{
+
+	text-shadow: 1px 1px 1px #000000;
+	font-family: "Courier New", monospace;
+	background-image: url('vicious-pretty.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+
+}
+
+h2{
+	
+	text-align: left;
+	
+}
+
+#Pagina_Inicial{
+	
+	text-shadow: 0px 0px 0px #000000;
+	text-align: left;
+	margin-top: 192px;
+	background-color: grey;
+
+}
+
+#name{
+	
+	background-color: transparent;
+	color: white;
+	font-family: "Courier New", monospace;
+	
+}
+
+#age{
+	
+	background-color: transparent;
+	color: white;
+	font-family: "Courier New", monospace;
+	
+}
+
+#email{
+	
+	background-color: transparent;
+	color: white;
+	font-family: "Courier New", monospace;
+	
+}
+
+#phone{
+	
+	background-color: transparent;
+	color: white;
+	font-family: "Courier New", monospace;
+	text-align: left;
+	
+}
+
+#adress{
+	
+	background-color: transparent;
+	color: white;
+	font-family: "Courier New", monospace;
+	
+}
+
+#BD{
+	
+	background-color: transparent;
+	color: white;
+	font-family: "Courier New", monospace;
+	
+}
+
+#observ{
+	
+	background-color: transparent;
+	color: white;
+	font-family: "Courier New", monospace;
+	
+}
+
+#options{
+	
+	background-color: transparent;
+	color: white;
+	font-family: "Courier New", monospace;
+	
+}

@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<title> Help meeded </title>
+		<link href="contactos.css" type="text/css" rel="Stylesheet">
+
+	</head>
+
+	<body BGcolor=black text=white>
+		
+		<br><h2> In need of a Vocalist/Guitarrist </h2>
+				
+		<form method="post" id="contactos" action="mailto:tiagof2003@gmail.com">
+			<fieldset>
+				<p>Name: <input type="text" id="name" name="name" placeholder="Nome"></p>
+				<p>Age: <input type="number" id="age" name="age" placeholder="Age"></p>
+				<p>Birth date: <input type="date" id="BD" name="BD"> </p>
+				<p>Email: <input type="email" id="email" name="email" size="50" placeholder="...@..."></p>
+				<p>Phone number: <input type="number" id="phone" name="phone" placeholder="Phone number"></p>
+				
+					<fieldset><legend> Gender: </legend>
+					
+						<input type="radio" id="male" name="gender">
+						<label for="male"> Male </label> <br>
+						
+						<input type="radio" id="female" name="gender">
+						<label for="female"> Female </label> <br>
+						
+						<input type="radio" id="wrong" name="gender">
+						<label for="wrong"> Wrong </label> <br>
+						
+						<input type="radio" id="Attack_chopper" name="gender">
+						<label for="Attack_chopper"> Attack chopper </label> <br>
+						
+					</fieldset>
+				
+				<p>Adress: <input type="text" id="adress" name="adress" placeholder="Adress" size="50"></p>
+				
+				<fieldset>Do you know how to play the guitar<p></p>
+					
+					<select name="options" id="options">
+				
+						<datalist id="options">
+							<option>    </option>
+							<option> Yes </option>
+							<option> So so, i can get better </option>
+							<option> No </option>
+						</datalist>
+				
+					</select>
+				
+				</fieldset>
+				
+				<p><fieldset><legend>Observations: </legend>
+					
+					<textarea id="observ" rows="5" cols="100" placeholder="write any observations"></textarea>
+					
+				</fieldset>
+				
+				<br><input type="submit" value="Submit">
+				
+			</fieldset>
+		</form>
+		
+		<footer>
+			<p id="Pagina_Inicial"> <a href="../index.html"> Home page</a> </p>
+		</footer>
+		
+	</body>
+
+</html>
